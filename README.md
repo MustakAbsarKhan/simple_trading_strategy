@@ -57,6 +57,9 @@ The script generates three plots using the matplotlib library:
 - Plot 3: Profit Generated <br>
   ![Plot 3](img/profit.png)
 
+- Plot 4: Wealth Generated <br>
+  ![Plot 4](img/wealth.png)
+
 The plots provide visual representations of the moving averages and the profit generated based on the trading strategy.
 
 ## Contributing

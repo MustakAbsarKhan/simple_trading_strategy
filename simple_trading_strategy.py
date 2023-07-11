@@ -42,5 +42,10 @@ plt.axhline(y=0, color='red')
 plt.legend()
 plt.show()
 
+stock['Wealth'] = stock['Profit'].cumsum()
+stock['Wealth'].plot(label='Wealth')
+plt.legend()
+plt.show()
+
 # # stock = stock.dropna() #use dropna to remove any "Not a Number" data
 # print(stock)
